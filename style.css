@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(121, 121, 121);
+    background-color: black;
     display: center;
+    font-family: "Roboto", sans-serif;
 }
 h4{
     margin: 0 auto;
@@ -14,7 +15,7 @@ h4{
 div.post{
     background-color: white;
     width: 420px;
-    border: solid black 10px;
+    border: solid black 0px;
 }
 .post-header{
     margin: 0 auto;
@@ -30,11 +31,21 @@ div.post{
     padding: 5 25px;
 }
 .icon{
-    text-align: right;
+    margin: 10px 10px 10px auto;
     padding-right: 5px;
     height: 0px;
 }
 .html5{
-    width: 100%;
-    margin: 0 auto;
+    margin: auto 0;
+}
+.leftSide, .topHeader {
+    display: flex;
+}
+.names {
+    margin-left: 5px;
+}
+.bookmark {
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
 }
